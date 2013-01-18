@@ -1,5 +1,0 @@
-category: Gnome
-requires: gedit python python-dbus python-gi girepository-Gtk3.0 girepository-GtkSource3.0 girepository-Peas1.0 texlive-collection-latexrecommended
-sdesc: "LaTeX plugin for the GNOME text editor"
-ldesc: "gedit-latex is a plugin that provides features to ease the 
-editing of latex documents."
