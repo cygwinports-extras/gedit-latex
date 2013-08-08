@@ -1,8 +1,8 @@
-inherit gnome2 python
+inherit gnome2 python3
 
 NAME="gedit-latex"
-VERSION=3.4.1
-RELEASE=2
+VERSION=3.8.0
+RELEASE=1
 CATEGORY="GNOME Editors"
 SUMMARY="LaTeX plugin for the GNOME text editor"
 DESCRIPTION="gedit-latex is a plugin that provides features to ease the
@@ -11,3 +11,5 @@ editing of latex documents."
 REQUIRES="girepository-Gtk3.0 girepository-GtkSource3.0 girepository-Peas1.0 texlive-collection-latexrecommended"
 
 DIFF_EXCLUDES="gldefs.py"
+
+export PYTHON=${PYTHON3}
